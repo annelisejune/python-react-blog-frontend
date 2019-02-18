@@ -1,0 +1,28 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+
+  .navlinks-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navlink {
+      width: 125px;
+
+      a {
+        text-decoration: none;
+        color: $offblack;
+        font-family: sans-serif;
+        transition: 0.3s;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+          border-bottom: 1px solid $offblack;
+        }
+      }
+    }
+  }
+}
